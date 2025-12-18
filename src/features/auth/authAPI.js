@@ -38,6 +38,13 @@ export async function checkUser(loginInfo) {
   }
 }
 
+
+export function signOut(userId) {
+  return new Promise(async resolve => {
+    resolve({ data: 'User logged out successfully' });
+  });
+}
+
 // export function checkUser(loginInfo) {
 //   return new Promise(async (resolve, reject) => {
 //     const email = loginInfo?.email;

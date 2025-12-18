@@ -1,19 +1,20 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { StarIcon } from '@heroicons/react/20/solid';
+import { StarIcon } from '@heroicons/react/24/solid';
 import { RadioGroup } from '@headlessui/react';
 
-import { productDetails, reviews } from '../../../assets/data/productDetails';
-import { fetchProductByIdAsync, selectSelectedProduct } from '../productSlice';
-import { addToCartAsync } from '../../cart/cartSlice';
-import { selectUserInfo } from '../../user/userSlice';
+
+import { fetchProductByIdAsync, selectSelectedProduct } from '../product/productSlice';
+import { addToCartAsync } from '../cart/cartSlice';
+import { selectUserInfo } from '../user/userSlice';
+import { productDetails } from '../../assets/data/productDetails';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function ProductDetail() {
+export default function AdminProductDetail() {
   const navigate = useNavigate();
   const { id } = useParams();
 

@@ -6011,7 +6011,7 @@ const products = {
     ],
   }
 
-const brands = [...new Set(products.products.map(product => product.category))];
+const brands = [...new Set(products.products?.map(product => product.category))];
 
 const brandList = brands.map(category => ({
   label: category,

@@ -6011,86 +6011,1605 @@
   ],
   "users": [
     {
-      "email": "dfd@gamik.com",
+      "email": "user1@gmail.com",
       "password": "12345678",
       "confirmPassword": "12345678",
+      "role": "admin",
+      "address": [],
       "id": 1
     },
     {
-      "email": "test@gmail.com",
+      "email": "user2@gmail.com",
       "password": "12345678",
       "confirmPassword": "12345678",
+      "role": "user",
+      "address": [],
+      "id": 2
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "orderItems": [
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        },
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 2
+        },
+        {
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 12.16,
+          "rating": 4.36,
+          "stock": 91,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "BEA-CHI-LIP-004",
+          "weight": 1,
+          "dimensions": {
+            "width": 18.11,
+            "height": 28.38,
+            "depth": 22.17
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Liam Garcia",
+              "reviewerEmail": "liam.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Ruby Andrews",
+              "reviewerEmail": "ruby.andrews@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 40,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9467746727219",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 52.97,
+      "totalItems": 3,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 1
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 9.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 9.84,
+          "rating": 4.64,
+          "stock": 89,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "BEA-VEL-POW-003",
+          "weight": 8,
+          "dimensions": {
+            "width": 29.27,
+            "height": 27.93,
+            "depth": 20.59
+          },
+          "warrantyInformation": "3 months warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Alexander Jones",
+              "reviewerEmail": "alexander.jones@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Elijah Cruz",
+              "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very dissatisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Avery Perez",
+              "reviewerEmail": "avery.perez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 22,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "8418883906837",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 14.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
       "id": 3
     },
     {
-      "email": "test2@gmail.com",
-      "password": "12345678",
-      "confirmPassword": "12345678",
-      "id": 4
-    }
-  ],
-  "cart": [
-    {
-      "id": 2,
-      "title": "Eyeshadow Palette with Mirror",
-      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-      "category": "beauty",
-      "price": 19.99,
-      "discountPercentage": 18.19,
-      "rating": 2.86,
-      "stock": 34,
-      "tags": [
-        "beauty",
-        "eyeshadow"
-      ],
-      "brand": "Glamour Beauty",
-      "sku": "BEA-GLA-EYE-002",
-      "weight": 9,
-      "dimensions": {
-        "width": 9.26,
-        "height": 22.47,
-        "depth": 27.67
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
+      "orderItems": [
         {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Savannah Gomez",
-          "reviewerEmail": "savannah.gomez@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Christian Perez",
-          "reviewerEmail": "christian.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nicholas Bailey",
-          "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
         }
       ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 20,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "9170275171413",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
       },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        },
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 3,
+          "userId": 1,
+          "id": 2
+        }
       ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
-      "quantity": 5,
-      "userId": 4
+      "totalAmount": 69.96,
+      "totalItems": 4,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          },
+          {
+            "name": "test user",
+            "email": "testuser@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "Chandigarh",
+            "state": "punjab",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "test user",
+        "email": "testuser@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "Chandigarh",
+        "state": "punjab",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "dfh",
+            "state": "punjab",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "dfh",
+        "state": "punjab",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user2",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user2",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 3,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 29.97,
+      "totalItems": 3,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user1",
+        "email": "user1@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 9.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user1",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          },
+          {
+            "name": "user2",
+            "email": "user2@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "punjab",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user2",
+        "email": "user2@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "punjab",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Calvin Klein CK One",
+          "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+          "category": "fragrances",
+          "price": 49.99,
+          "discountPercentage": 1.89,
+          "rating": 4.37,
+          "stock": 29,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Calvin Klein",
+          "sku": "FRA-CAL-CAL-006",
+          "weight": 7,
+          "dimensions": {
+            "width": 29.36,
+            "height": 27.76,
+            "depth": 20.72
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 2,
+              "comment": "Very disappointed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Layla Young",
+              "reviewerEmail": "layla.young@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Fast shipping!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Daniel Cook",
+              "reviewerEmail": "daniel.cook@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not as described!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 9,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "2451534060749",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+            "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
+            "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 49.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "user4",
+            "email": "user1@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          },
+          {
+            "name": "user2",
+            "email": "user2@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "punjab",
+            "postal-code": "12333463"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "user2",
+        "email": "user2@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "punjab",
+        "postal-code": "12333463"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 11
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 9.99,
+      "totalItems": 1,
+      "user": {
+        "email": "user1@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "admin",
+            "email": "admin@gmail.com",
+            "phone-number": "1234566345",
+            "address": "chandigarh",
+            "city": "chandigarh",
+            "state": "punjab",
+            "postal-code": "123334"
+          },
+          {
+            "name": "user2",
+            "email": "user2@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "punjab",
+            "postal-code": "12333463"
+          }
+        ],
+        "id": 1
+      },
+      "address": {
+        "name": "admin",
+        "email": "admin@gmail.com",
+        "phone-number": "1234566345",
+        "address": "chandigarh",
+        "city": "chandigarh",
+        "state": "punjab",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 12
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+          "category": "beauty",
+          "price": 9.99,
+          "discountPercentage": 10.48,
+          "rating": 2.56,
+          "stock": 99,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "BEA-ESS-ESS-001",
+          "weight": 4,
+          "dimensions": {
+            "width": 15.14,
+            "height": 13.08,
+            "depth": 22.99
+          },
+          "warrantyInformation": "1 week warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Lucas Gordon",
+              "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Eleanor Collins",
+              "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 48,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "5784719087687",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+          "quantity": 1,
+          "userId": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 9.99,
+      "totalItems": 1,
+      "user": {
+        "email": "new@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "new user",
+            "email": "new@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 3
+      },
+      "address": {
+        "name": "new user",
+        "email": "new@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "orderItems": [
+        {
+          "title": "Eyeshadow Palette with Mirror",
+          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+          "category": "beauty",
+          "price": 19.99,
+          "discountPercentage": 18.19,
+          "rating": 2.86,
+          "stock": 34,
+          "tags": [
+            "beauty",
+            "eyeshadow"
+          ],
+          "brand": "Glamour Beauty",
+          "sku": "BEA-GLA-EYE-002",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.26,
+            "height": 22.47,
+            "depth": 27.67
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Savannah Gomez",
+              "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Christian Perez",
+              "reviewerEmail": "christian.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2025-04-30T09:41:02.053Z",
+              "reviewerName": "Nicholas Bailey",
+              "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 20,
+          "meta": {
+            "createdAt": "2025-04-30T09:41:02.053Z",
+            "updatedAt": "2025-04-30T09:41:02.053Z",
+            "barcode": "9170275171413",
+            "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+          "quantity": 1,
+          "userId": 3,
+          "id": 1
+        }
+      ],
+      "totalAmount": 19.99,
+      "totalItems": 1,
+      "user": {
+        "email": "new@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "address": [
+          {
+            "name": "adminnn",
+            "email": "admin@gmail.com",
+            "phone-number": "1234566345",
+            "address": "testing",
+            "city": "test",
+            "state": "test",
+            "postal-code": "123334"
+          }
+        ],
+        "id": 3
+      },
+      "address": {
+        "name": "adminnn",
+        "email": "admin@gmail.com",
+        "phone-number": "1234566345",
+        "address": "testing",
+        "city": "test",
+        "state": "test",
+        "postal-code": "123334"
+      },
+      "paymentMethod": "cash",
+      "status": "pending",
+      "id": 14
     }
   ]
 }

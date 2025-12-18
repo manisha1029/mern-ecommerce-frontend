@@ -19,7 +19,8 @@ function Signup() {
   const dispatch = useDispatch();
 
   function onSubmit(data) {
-    dispatch(signupAsync(data));
+    //TODO: This role can be directly given on backned.
+    dispatch(signupAsync({ ...data, role:'user', address: [] }));
     reset();
   }
 
@@ -71,12 +72,12 @@ function Signup() {
                 Password
               </label>
               <div className="text-sm">
-                <a
-                  href="#"
+                <Link
+                  to="/forgot-password"
                   className="font-semibold text-indigo-400 hover:text-indigo-300"
                 >
                   Forgot password?
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mt-2">

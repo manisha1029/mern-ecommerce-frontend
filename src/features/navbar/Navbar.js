@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, useEffect } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import {
   Bars3Icon,
@@ -8,6 +8,7 @@ import {
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectItems } from '../cart/cartSlice';
+import { selectLoggedInUser } from '../auth/authSlice';
 
 const user = {
   name: 'Tom Cook',
@@ -16,14 +17,16 @@ const user = {
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 };
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
+  { name: 'Dashboard', link: '#', current: true, user: true },
+  { name: 'Team', link: '#', current: false, user: true },
+  { name: 'Admin', link: '/admin/products', current: false, admin: true },
 ];
 
-const userNavigation = [
-  { name: 'Your Profile', link: '/' },
-  { name: 'Settings', link: '/' },
-  { name: 'Sign out', link: '/login' },
+const baseUserNavigation = [
+  { name: 'My Profile', link: '/profile' },
+  { name: 'My Orders', link: '/orders' },
+  { name: 'Sign out', link: '/logout' },
+  
 ];
 
 function classNames(...classes) {
@@ -32,6 +35,9 @@ function classNames(...classes) {
 
 function NavBar({ children }) {
   const cartItems = useSelector(selectItems);
+  const user = useSelector(selectLoggedInUser);
+  const isAdmin = user?.role === 'admin';
+  const userNavigation = isAdmin ? [...baseUserNavigation, { name: 'Admin', link: '/admin/products' }] : baseUserNavigation;
   return (
     <>
       <div className="min-h-full">
@@ -52,10 +58,10 @@ function NavBar({ children }) {
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
-                        {navigation.map(item => (
-                          <a
+                        {navigation.map(item => item[user?.role] === true ? (
+                         <Link
                             key={item.name}
-                            href={item.href}
+                            to={item.link}
                             className={classNames(
                               item.current
                                 ? 'bg-gray-900 text-white'
@@ -65,8 +71,8 @@ function NavBar({ children }) {
                             aria-current={item.current ? 'page' : undefined}
                           >
                             {item.name}
-                          </a>
-                        ))}
+                          </Link>
+                        ) : null)}
                       </div>
                     </div>
                   </div>
@@ -134,7 +140,7 @@ function NavBar({ children }) {
                   </div>
                   <div className="-mr-2 flex md:hidden">
                     {/* Mobile menu button */}
-                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Link to="/" className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open main menu</span>
                       {open ? (
                         <XMarkIcon
@@ -147,18 +153,18 @@ function NavBar({ children }) {
                           aria-hidden="true"
                         />
                       )}
-                    </Disclosure.Button>
+                    </Link>
                   </div>
                 </div>
               </div>
 
               <Disclosure.Panel className="md:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                  {navigation.map(item => (
-                    <Disclosure.Button
+                  {navigation.map(item => item[user?.role] === true ? (
+                    <Link
                       key={item.name}
-                      as="a"
-                      href={item.href}
+                      as="Link"
+                      to={item.link}
                       className={classNames(
                         item.current
                           ? 'bg-gray-900 text-white'
@@ -168,8 +174,8 @@ function NavBar({ children }) {
                       aria-current={item.current ? 'page' : undefined}
                     >
                       {item.name}
-                    </Disclosure.Button>
-                  ))}
+                    </Link>
+                  ) : null)}
                 </div>
                 <div className="border-t border-gray-700 pb-3 pt-4">
                   <div className="flex items-center px-5">
@@ -207,14 +213,14 @@ function NavBar({ children }) {
                   </div>
                   <div className="mt-3 space-y-1 px-2">
                     {userNavigation.map(item => (
-                      <Disclosure.Button
+                      <Link
                         key={item.name}
-                        as="a"
-                        href={item.href}
+                        as="Link"
+                        to={item.link}
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
                       >
                         {item.name}
-                      </Disclosure.Button>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -230,7 +236,7 @@ function NavBar({ children }) {
             </h1>
           </div>
         </header>
-        <main>
+        <main className="bg-white min-h-screen">
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             {children}
           </div>
